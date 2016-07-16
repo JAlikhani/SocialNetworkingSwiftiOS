@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB59D7441D39CE10006B7643 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB59D7431D39CE10006B7643 /* AppDelegate.swift */; };
+		FB59D7461D39CE11006B7643 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB59D7451D39CE11006B7643 /* ViewController.swift */; };
+		FB59D7491D39CE11006B7643 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB59D7471D39CE11006B7643 /* Main.storyboard */; };
+		FB59D74B1D39CE11006B7643 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB59D74A1D39CE11006B7643 /* Assets.xcassets */; };
+		FB59D74E1D39CE11006B7643 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB59D74C1D39CE11006B7643 /* LaunchScreen.storyboard */; };
+		FB59D75D1D39CEF8006B7643 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB59D7571D39CEF8006B7643 /* FBAudienceNetwork.framework */; };
+		FB59D75E1D39CEF8006B7643 /* FBNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB59D7581D39CEF8006B7643 /* FBNotifications.framework */; };
+		FB59D75F1D39CEF8006B7643 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB59D7591D39CEF8006B7643 /* FBSDKCoreKit.framework */; };
+		FB59D7601D39CEF8006B7643 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB59D75A1D39CEF8006B7643 /* FBSDKLoginKit.framework */; };
+		FB59D7611D39CEF8006B7643 /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB59D75B1D39CEF8006B7643 /* FBSDKMessengerShareKit.framework */; };
+		FB59D7621D39CEF8006B7643 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB59D75C1D39CEF8006B7643 /* FBSDKShareKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB59D7401D39CE10006B7643 /* SocialNetworkingSwiftiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialNetworkingSwiftiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB59D7431D39CE10006B7643 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB59D7451D39CE11006B7643 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB59D7481D39CE11006B7643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB59D74A1D39CE11006B7643 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB59D74D1D39CE11006B7643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB59D74F1D39CE11006B7643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB59D7571D39CEF8006B7643 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = SOURCE_ROOT; };
+		FB59D7581D39CEF8006B7643 /* FBNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBNotifications.framework; sourceTree = SOURCE_ROOT; };
+		FB59D7591D39CEF8006B7643 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = SOURCE_ROOT; };
+		FB59D75A1D39CEF8006B7643 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = SOURCE_ROOT; };
+		FB59D75B1D39CEF8006B7643 /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKMessengerShareKit.framework; sourceTree = SOURCE_ROOT; };
+		FB59D75C1D39CEF8006B7643 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = SOURCE_ROOT; };
+		FB59D7631D39D0E3006B7643 /* Facebook-Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Facebook-Bridge.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB59D73D1D39CE10006B7643 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB59D75D1D39CEF8006B7643 /* FBAudienceNetwork.framework in Frameworks */,
+				FB59D75F1D39CEF8006B7643 /* FBSDKCoreKit.framework in Frameworks */,
+				FB59D7621D39CEF8006B7643 /* FBSDKShareKit.framework in Frameworks */,
+				FB59D7611D39CEF8006B7643 /* FBSDKMessengerShareKit.framework in Frameworks */,
+				FB59D7601D39CEF8006B7643 /* FBSDKLoginKit.framework in Frameworks */,
+				FB59D75E1D39CEF8006B7643 /* FBNotifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB59D7371D39CE10006B7643 = {
+			isa = PBXGroup;
+			children = (
+				FB59D7421D39CE10006B7643 /* SocialNetworkingSwiftiOS */,
+				FB59D7561D39CED3006B7643 /* Framework */,
+				FB59D7411D39CE10006B7643 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB59D7411D39CE10006B7643 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB59D7401D39CE10006B7643 /* SocialNetworkingSwiftiOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB59D7421D39CE10006B7643 /* SocialNetworkingSwiftiOS */ = {
+			isa = PBXGroup;
+			children = (
+				FB59D7451D39CE11006B7643 /* ViewController.swift */,
+				FB59D7471D39CE11006B7643 /* Main.storyboard */,
+				FB59D7551D39CEC5006B7643 /* Supporting Files */,
+			);
+			path = SocialNetworkingSwiftiOS;
+			sourceTree = "<group>";
+		};
+		FB59D7551D39CEC5006B7643 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB59D7431D39CE10006B7643 /* AppDelegate.swift */,
+				FB59D74A1D39CE11006B7643 /* Assets.xcassets */,
+				FB59D74C1D39CE11006B7643 /* LaunchScreen.storyboard */,
+				FB59D74F1D39CE11006B7643 /* Info.plist */,
+				FB59D7631D39D0E3006B7643 /* Facebook-Bridge.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB59D7561D39CED3006B7643 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				FB59D7571D39CEF8006B7643 /* FBAudienceNetwork.framework */,
+				FB59D7581D39CEF8006B7643 /* FBNotifications.framework */,
+				FB59D7591D39CEF8006B7643 /* FBSDKCoreKit.framework */,
+				FB59D75A1D39CEF8006B7643 /* FBSDKLoginKit.framework */,
+				FB59D75B1D39CEF8006B7643 /* FBSDKMessengerShareKit.framework */,
+				FB59D75C1D39CEF8006B7643 /* FBSDKShareKit.framework */,
+			);
+			name = Framework;
+			path = SocialNetworkingSwiftiOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB59D73F1D39CE10006B7643 /* SocialNetworkingSwiftiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB59D7521D39CE11006B7643 /* Build configuration list for PBXNativeTarget "SocialNetworkingSwiftiOS" */;
+			buildPhases = (
+				FB59D73C1D39CE10006B7643 /* Sources */,
+				FB59D73D1D39CE10006B7643 /* Frameworks */,
+				FB59D73E1D39CE10006B7643 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialNetworkingSwiftiOS;
+			productName = SocialNetworkingSwiftiOS;
+			productReference = FB59D7401D39CE10006B7643 /* SocialNetworkingSwiftiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB59D7381D39CE10006B7643 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jalal Alikhani";
+				TargetAttributes = {
+					FB59D73F1D39CE10006B7643 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = L48QWPVKB9;
+					};
+				};
+			};
+			buildConfigurationList = FB59D73B1D39CE10006B7643 /* Build configuration list for PBXProject "SocialNetworkingSwiftiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB59D7371D39CE10006B7643;
+			productRefGroup = FB59D7411D39CE10006B7643 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB59D73F1D39CE10006B7643 /* SocialNetworkingSwiftiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB59D73E1D39CE10006B7643 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB59D74E1D39CE11006B7643 /* LaunchScreen.storyboard in Resources */,
+				FB59D74B1D39CE11006B7643 /* Assets.xcassets in Resources */,
+				FB59D7491D39CE11006B7643 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB59D73C1D39CE10006B7643 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB59D7461D39CE11006B7643 /* ViewController.swift in Sources */,
+				FB59D7441D39CE10006B7643 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FB59D7471D39CE11006B7643 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB59D7481D39CE11006B7643 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB59D74C1D39CE11006B7643 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB59D74D1D39CE11006B7643 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB59D7501D39CE11006B7643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "SocialNetworkingSwiftiOS/Facebook-Bridge.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB59D7511D39CE11006B7643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "SocialNetworkingSwiftiOS/Facebook-Bridge.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB59D7531D39CE11006B7643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SocialNetworkingSwiftiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jalal.alikhani.com.SocialNetworkingSwiftiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB59D7541D39CE11006B7643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SocialNetworkingSwiftiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jalal.alikhani.com.SocialNetworkingSwiftiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB59D73B1D39CE10006B7643 /* Build configuration list for PBXProject "SocialNetworkingSwiftiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB59D7501D39CE11006B7643 /* Debug */,
+				FB59D7511D39CE11006B7643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB59D7521D39CE11006B7643 /* Build configuration list for PBXNativeTarget "SocialNetworkingSwiftiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB59D7531D39CE11006B7643 /* Debug */,
+				FB59D7541D39CE11006B7643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB59D7381D39CE10006B7643 /* Project object */;
+}
